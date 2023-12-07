@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decision Making</title>
+    <link rel="stylesheet" href="DecisionMaker.css" />
+  </head>
+
+  <body>
+    <h1>Decision Making app</h1>
+
+    <div class="centre">
+      <p>Find your destiny here</p>
+
+      <div>
+        <label for="name">What is your name?</label>
+        <input type="text" id="name" placeholder="Ask me anything" />
+      </div>
+
+      <div>
+        <label for="question">What is your question?</label>
+        <input type="text" id="question" placeholder="Ask me anything" />
+      </div>
+
+      <button onclick="check()" type="button">Reveal your destiny</button>
+    </div>
+
+    <p id="answer"></p>
+
+    <script src="DecisionMaker.js"></script>
+  </body>
+</html>
